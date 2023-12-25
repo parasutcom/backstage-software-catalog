@@ -1,1 +1,16 @@
+---
+apiVersion: "4.0.0"
+kind: API
+metadata:
+  name: server
+  description: A heart of the Parasut. All the requests are handled by this API.
+  links:
+    - url: https://api.parasut.com/
+      title: Parasut API
+spec:
+  type: openapi
+  lifecycle: production
+  owner: group:parasutcom
+  system: system-name
+  definition: https://github.com/parasutcom/api-doc/blob/master/spec/swagger.yaml
 
