@@ -11,6 +11,5 @@ spec:
   type: swagger
   lifecycle: production
   owner: group:parasutcom
-  system: parasut-mothership
-  definition:
-    $text: https://apidocs.parasut.com/
+  system: system-name
+  definition: ./swagger.yaml
