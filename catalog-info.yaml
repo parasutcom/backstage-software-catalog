@@ -8,7 +8,7 @@ metadata:
     - url: https://api.parasut.com/
       title: Parasut API
 spec:
-  type: swagger
+  type: openapi
   lifecycle: production
   owner: group:parasutcom
   system: parasut-mothership
