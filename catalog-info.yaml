@@ -12,6 +12,22 @@ spec:
   lifecycle: production
   owner: group:parasutcom
   system: parasut-mothership
+  consumesApis: [e-doc-broker]
   definition:
     $text: https://github.com/parasutcom/backstage-software-catalog/blob/main/swagger.yaml
-    
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: e-doc-broker
+  description: A service that handles e-docs.
+  links:
+    - url: https://api.parasut.com/
+      title: E-Doc-Broker API
+spec:
+  type: openapi
+  lifecycle: production
+  owner: group:parasutcom
+  system: parasut-mothership
+  definition:
+    $text: https://github.com/parasutcom/backstage-software-catalog/blob/main/swagger.yaml
